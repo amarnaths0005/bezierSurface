@@ -879,6 +879,11 @@ function setupGrid() {
     scene.add(lineControl5);
 }
 
+// This is where all the magic happens. This function computes a point on the 
+//  Bezier Surface. This is an implementation of the formulas from the book by
+//  Rogers and Adams, Mathematical Elements for Computer Graphics.
+//  The point on the surface corresponding to the values of u and w, is 
+//  returned by this function. 
 function computeBezierSurfacePoint(uVal, wVal) {
     let u2, u3, w2, w3;
     u2 = uVal * uVal;
