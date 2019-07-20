@@ -960,7 +960,7 @@ function computeBezierSurfacePoint(uVal, wVal) {
 
 function handleUWValue() {
     scene.remove(pointUW);
-    let uVal, vVal;
+    let uVal, wVal;
     uVal = parseFloat(uRange.value);
     wVal = parseFloat(wRange.value);
     let pt = computeBezierSurfacePoint(uVal, wVal);
