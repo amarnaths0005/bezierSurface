@@ -25,6 +25,8 @@ Uses WebGL as available in three.js
 
 Please report issues to amarnaths.codeproject@gmail.com
 
+Open the file <i>index.html</i> in your browser.
+
 Screenshot
 
 ![Screenshot of BezierSurface](https://github.com/amarnaths0005/bezierSurface/blob/master/bezierSurface.png)
