@@ -82,6 +82,10 @@ function init() {
 
     halfCubeSide = 1;
 
+    // There is a more efficient way of writing the following code, using arrays.
+    // For this project, I will use the long form of code. For another project
+    // NURBS Surface, I will use a much shorter form of code.
+
     // Tab 1 - Line 1 - start
     // Point P00 X
     p00xRange = document.getElementById('point00x');
